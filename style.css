@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.h2 {
+  color: white;
+}
+body {
+  background: #2c0800;
+  min-height: 50vh;
+  overflow-x: hidden; /* overflow-x: hidden; rule prevents horizontal scrolling. */
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  /* background-color: rgba(44, 8, 0, 0.5); */
+}
+
+.logo {
+  font-size: 2em;
+  color: white;
+  pointer-events: none;
+  margin-right: 400px;
+}
+
+.navagation a {
+  text-decoration: none;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+.navagation a:hover,
+.navagation a.active {
+  background: orange;
+  color: white;
+}
+
+.parallax {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 0px;
+  z-index: -100;
+}
+.parallax {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 0px;
+}
+
+#text {
+  position: absolute;
+  font-size: 5em;
+  color: white;
+  text-shadow: 2px 2px 4px rgpa(0, 0, 0, 0.2);
+}
+.parallax img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+/* card */
+
+.card {
+  display: flex;
+  /* background-color: white; */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  /* width: 1400px; */
+  height: 260px;
+  display: center;
+  margin: 50px;
+}
+
+.card img {
+  width: 300px;
+  /* height: 300px; */
+  object-fit: cover;
+  padding: 40px;
+  border-radius: 60px;
+  margin: -40px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  padding: 27px 48px;
+  align-items: center;
+  color: white;
+}
+.card h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin-top: 16px;
+  font-size: 1rem;
+}
+.text-person {
+  height: 123px;
+  color: white;
+  padding: 50px;
+  font-size: 42px;
+}
+.more {
+  background-color: #f15437;
+  color: white;
+  padding: 6px 23px;
+  border-radius: 5px;
+  margin: 24px 0px;
+  font-weight: 600;
+}
+.more a {
+  text-decoration: none;
+}
+
+.more a:visited,
+.more a:link,
+.more a:active {
+  text-decoration: none;
+  color: white;
+}
+
+/* .person {
+  width: 1712px;
+  height: 675px;
+  padding: 50px;
+  color: white;
+  display: flex;
+}
+.image-card {
+  flex: 0 0 50%;
+}
+
+.card-text {
+  display: flex;
+} */
+.sec {
+  position: relative;
+  background: #2c0800;
+  padding: 50px;
+  /* color: white; */
+}
+#Hades {
+  width: 300px;
+  height: 300px;
+}
+.text-person {
+  width: 1067px;
+  height: 0px;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.sec h2 {
+  font-size: 3em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.sec p {
+  font-size: 1em;
+  color: white;
+  line-height: 2em;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+#map-image {
+  width: 1920px;
+  height: 522px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 1562px; */
+  height: 100px;
+  background-color: #f15437;
+  color: white;
+  font-size: medium;
+  margin-top: 72px;
+}
